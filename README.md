@@ -1,7 +1,7 @@
 # Spam Detection
 In this project, we aim to detect SMS spam messages using large language models (LLMs).
 
-![images](./images/new_experiment_framework.jpg)
+![images](./images/spam_detection_framework.jpg)
 
 We evaluate spam messages in both English and Korean. We use the following prompt to evalute the effectiveness of the large language models.
 
@@ -47,8 +47,8 @@ python ./results/utils/get_metrics.py
 # Main Results
 We find that GPT-4o achieves the best performance in the detection of spam messages in both the English and the Korean dataset.
 
-![images](./images/table_3.jpg)
+![images](./images/table_3.png)
 
 Using Method_3, we adjust the threshold and find that value of 6 yields the best results.
 
-![images](./images/table_4.jpg)
+![images](./images/table_4.png)
